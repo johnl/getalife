@@ -1,0 +1,22 @@
+Get A Life - John Leach <john@johnleach.co.uk>
+
+v0.1	Initial test, one colour, ethnically true.
+v0.2	3 Colours, similar rules.  Note dodgy rounding causing lines in growth
+v0.3	Far more complicated one.  Each cell choose another cell to attack and
+	attacks it until it is dead, then  moves in a bit slow and not great
+	results
+v0.4	Far cooler.  More variables, random mutations, better inheritance
+
+
+Use the #define variables at the top to tweak the resolution.  Actual res is
+double these settings, as each pixel is 2 pixels in size so things are bigger.
+
+The black banding is cells dying then been replaced by surrounding spores.  It
+is easier for other cells to spore into "dead" parts of the petri dish than
+"live" ones so you tend to see other colours flourishing during these bands.
+
+The mutating can causes lots of cool stuff.  There are a few variables that
+aren't randomly set during the big bang, so would never occur "naturally", but
+mutations can cause these.
+
+Cells are a "living" pixel.  Particles are just points in the "universe" (ram)

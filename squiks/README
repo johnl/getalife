@@ -1,0 +1,16 @@
+Squiks
+======
+
+see https://johnleach.co.uk/getalife
+
+These little pixel creatures just kinda wander around the screen, randomly
+spawning and randomly dying.   They will eventually seek food and mates and
+maybe solve complex mathematical equations, but for they they are just cute to
+watch.
+
+example:
+
+# gcc -o squik squik-0.1.c -lSDL -lpthread
+# ./squik
+
+
